@@ -104,3 +104,8 @@ def remover_livro(livro_id: int):
             detail="Livro nao encontrado",
         )
     return {"mensagem": "Livro removido com sucesso"}
+
+
+@app.get("/status")
+def verificar_status():
+    return {"mensagem": "API funcionando"}

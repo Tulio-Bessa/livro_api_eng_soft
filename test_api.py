@@ -32,7 +32,7 @@ def _criar_livro_exemplo(titulo="Dom Casmurro", autor="Machado de Assis",
 
 
 # ----------------------------------------------------------------------
-# Create
+#
 # ----------------------------------------------------------------------
 
 def test_criar_livro_retorna_201_e_id():
